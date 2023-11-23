@@ -29,6 +29,25 @@ nav ul li a {
 
 }
 
+/* adultos */
+
+
+ .contenedor-productos{
+
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap:2rem;
+    row-gap: 2rem;
+
+
+}
+
+
+section article img {
+    width: 100%;
+}
+
 /* footer */
 
 footer {
