@@ -11,11 +11,14 @@ img{
 }
 
 
+
+
 /* header */
 
  h1 {
     
    text-align: center;
+   text-decoration: underline;
 }
 
 nav ul {
@@ -64,18 +67,21 @@ nav ul li a {
 
 /* niños */
 
-div .productos-niños{
-    width: 10rem;
-    height: 10rem;
-    background-color: aqua;
-    border: solid 1px grey;
+
+
+/* sucursales */
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
     
-    
-    
+} 
+
+iframe{
+    border-radius: 10px;
+    box-shadow: 3px 3px grey;
 }
-
-
-
 
 
 /* footer */
