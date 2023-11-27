@@ -55,6 +55,7 @@ nav ul li a {
     border: solid .5px grey;
     border-radius: 5px;
     text-align: center;
+    overflow: hidden;
 }
 
 .añadir{
