@@ -1,0 +1,14 @@
+.icons-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0;
+
+    img {
+        transition: 1s;
+
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+}
