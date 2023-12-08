@@ -18,8 +18,19 @@ nav ul li a {
 
 main .productos {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+@media (max-width: 500px) {
+  main .productos {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 500px) {
+  main .carta {
+    width: 50%;
+  }
 }
 
 .carta {
@@ -98,4 +109,4 @@ footer {
   color: #fafafa;
 }
 
-/*# sourceMappingURL=Style.css.map */
+/*# sourceMappingURL=style.css.map */
